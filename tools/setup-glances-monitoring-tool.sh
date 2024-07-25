@@ -9,10 +9,9 @@
 
 # Update the package list and install curl
 sudo apt update
-sudo apt install -y curl
 
 # Install Glances using the curl command
-curl -L https://bit.ly/glances | /bin/bash
+sudo apt install -y glances
 
 # Create the systemd service file for Glances
 sudo tee /etc/systemd/system/glances.service > /dev/null <<EOF
