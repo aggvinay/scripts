@@ -1,5 +1,8 @@
 #!/bin/bash
 
+## Usage for linux
+# curl -L https://raw.githubusercontent.com/aggvinay/scripts/main/tools/setup-glances-monitoring-tool.sh | /bin/bash
+
 ###
 # Author: vinay@hellovinay.com
 ###
